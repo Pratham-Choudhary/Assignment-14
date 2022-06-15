@@ -12,9 +12,9 @@ int main()
 		p = p/10;
 		for (int i=1 ; i<=r ; i++)
 		{
-				cout<<"*";
+			cout<<"#";
 		}
-	 cout<<"\n";
+	 	cout<<"\n";
 	}
 	return 0;
 }
