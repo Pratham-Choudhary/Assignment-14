@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n,r=0;
+	cin>>n; //n=123405
+	int p = n;
+	while(p != 0)
+	{
+		r = p%10;
+		p = p/10;
+		for (int i=1 ; i<=r ; i++)
+		{
+				cout<<"*";
+		}
+	 cout<<"\n";
+	}
+	return 0;
+}
