@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n;
+	cout<<"Enter the Power of 2 : "<<endl;
+	cin>>n;
+	for(int i=1 ; i<= n; i++)
+	{
+		for(int j=1 ; j<=pow(2,i) ; j++)
+		{
+			cout<<"#";
+		}
+		cout<<"\n";
+	}
+}
+//ideone link:- https://ideone.com/gNWl4F
